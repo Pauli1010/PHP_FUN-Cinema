@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header { text-align: center; }
+footer { text-align: center; }
+nav ul { display: inline-block; }
+nav li {
+    display: inline-block;
+    position: relative;
+}
+nav li:after {
+    display: inline-block;
+    content: '|';
+    position: absolute;
+    top: 1px;
+    right: -1px;
+    z-index: 5;
+}
+nav li:last-of-type:after { display: none; }
+nav li a { padding: 5px 20px; }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+article {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flash-message {
+    width: 80%;
+    max-width: 800px;
+    border: 2px solid blue;
+    margin: 15px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* BUTTONS */
+
+.btn {
+    display: inline-block;
+    height: 30px;
+    border: 1px solid #000;
+    color: #000;
+    text-decoration: none;
+    padding: 5px 10px;
+    vertical-align: bottom;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.btn:hover {
+    filter: brightness(1.5);
+}
+
+.btn-edit {
+    background-color: darkgreen;
+    color: #fff;
+}
+
+.btn-delete {
+    background-color: darkred;
+    color: #fff;
+}
+
+/* TEXT */
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.strong { font-weight: bold; }
+
+/* FORMS */
+
+.delete-item-form { display: inline-block; }
+
+table label {
+    display: inline-block;
+    width: 60px;
+}
+
+table input { border: 1px solid #000; }
+
+/* TABLES */
+
+th {
+    font-size: 80%;
+    text-transform: uppercase;
+}
+
+.price-cell {
+    text-align: right;
+}

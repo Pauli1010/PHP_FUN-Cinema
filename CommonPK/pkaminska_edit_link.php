@@ -1,0 +1,1 @@
+<a href=<?php echo $pk_edit_action.'?id='.$_GET['id'] ?> class='btn btn-edit'>edytuj</a>
