@@ -1,3 +1,5 @@
+PROJEKT ZALICZENIOWY
+
 Przyjęta konwencja nazewnicza:
 
 FOLDER ArticlesPK - Pusty - nie znalazłam dla niego zastosowania w ramach przyjętej architektury
